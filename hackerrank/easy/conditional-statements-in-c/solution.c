@@ -12,10 +12,10 @@
 int main() {
     int n;
     
-    // Read the input integer
+  
     scanf("%d", &n);
     
-    // Check the conditions using an if-else if ladder
+   
     if (n == 1) {
         printf("one\n");
     } else if (n == 2) {
