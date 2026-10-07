@@ -35,7 +35,7 @@ int main() {
     } else if (n == 9) {
         printf("nine\n");
     } else {
-        // If n > 9
+        
         printf("Greater than 9\n");
     }
 
