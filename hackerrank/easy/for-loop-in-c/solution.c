@@ -12,9 +12,9 @@ int main()
     int a, b;
     scanf("%d\n%d", &a, &b);
 
-    // Loop from a to b inclusive
+    
     for (int i = a; i <= b; i++) {
-        // Check if the number is between 1 and 9
+        
         if (i >= 1 && i <= 9) {
             switch(i) {
                 case 1: printf("one\n"); break;
@@ -28,7 +28,7 @@ int main()
                 case 9: printf("nine\n"); break;
             }
         } 
-        // Check if the number is greater than 9
+      
         else if (i > 9) {
             if (i % 2 == 0) {
                 printf("even\n");
