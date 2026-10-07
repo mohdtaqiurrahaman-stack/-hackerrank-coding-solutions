@@ -2,7 +2,6 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-// Complete the calculate_the_maximum function below.
 void calculate_the_maximum(int n, int k) {
     // Initialize maximums to 0
     int max_and = 0;
@@ -13,7 +12,7 @@ void calculate_the_maximum(int n, int k) {
     for (int a = 1; a <= n; a++) {
         for (int b = a + 1; b <= n; b++) {
             
-            // Calculate the three bitwise operations
+            
             int current_and = a & b;
             int current_or = a | b;
             int current_xor = a ^ b;
